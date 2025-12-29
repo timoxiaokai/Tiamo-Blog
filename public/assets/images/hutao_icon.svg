@@ -1,0 +1,40 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Ghost Body -->
+  <path d="M256 120C185.3 120 128 177.3 128 248C128 350 160 380 120 450C110 467.5 130 490 150 480C190 460 220 440 256 440C292 440 322 460 362 480C382 490 402 467.5 392 450C352 380 384 350 384 248C384 177.3 326.7 120 256 120Z" fill="white" stroke="#333" stroke-width="8"/>
+  
+  <!-- Ghost Face -->
+  <ellipse cx="215" cy="240" rx="15" ry="20" fill="#333"/>
+  <ellipse cx="297" cy="240" rx="15" ry="20" fill="#333"/>
+  <!-- Blush -->
+  <ellipse cx="200" cy="265" rx="12" ry="8" fill="#FFAAAA" opacity="0.6"/>
+  <ellipse cx="312" cy="265" rx="12" ry="8" fill="#FFAAAA" opacity="0.6"/>
+  <!-- Tongue -->
+  <path d="M246 260 H266 V270 C266 280 256 280 256 280 C256 280 246 280 246 270 V260 Z" fill="#FF6666"/>
+
+  <!-- Hat Brim -->
+  <ellipse cx="256" cy="140" rx="140" ry="40" fill="#3E2723" stroke="#212121" stroke-width="4"/>
+  
+  <!-- Hat Top -->
+  <path d="M186 140 L206 50 C206 40 306 40 306 50 L326 140" fill="#4E342E" stroke="#212121" stroke-width="4"/>
+  <ellipse cx="256" cy="50" rx="50" ry="10" fill="#5D4037"/>
+
+  <!-- Plum Blossom Decoration -->
+  <g transform="translate(300, 110) scale(0.6)">
+    <circle cx="0" cy="0" r="25" fill="#D32F2F"/>
+    <circle cx="0" cy="-20" r="12" fill="#D32F2F"/>
+    <circle cx="18" cy="-8" r="12" fill="#D32F2F"/>
+    <circle cx="12" cy="15" r="12" fill="#D32F2F"/>
+    <circle cx="-12" cy="15" r="12" fill="#D32F2F"/>
+    <circle cx="-18" cy="-8" r="12" fill="#D32F2F"/>
+    <circle cx="0" cy="0" r="8" fill="#FFD700"/>
+  </g>
+
+  <!-- Talisman (hanging from hat) -->
+  <rect x="170" y="140" width="16" height="40" fill="#FFD700"/>
+  <circle cx="178" cy="185" r="6" fill="#D32F2F"/>
+
+  <!-- Ghost Arms -->
+  <path d="M140 260 C120 280 100 270 90 250" stroke="#333" stroke-width="8" stroke-linecap="round" fill="none"/>
+  <path d="M372 260 C392 280 412 270 422 250" stroke="#333" stroke-width="8" stroke-linecap="round" fill="none"/>
+
+</svg>
