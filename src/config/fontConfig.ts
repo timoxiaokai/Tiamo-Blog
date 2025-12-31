@@ -46,6 +46,14 @@ export const fontConfig = {
 			weight: 600,
 			display: "swap" as const,
 		},
+		// 胡桃轮廓字体
+		"hutao-outline": {
+			id: "hutao-outline",
+			name: "胡桃轮廓字体",
+			src: "/src/styles/hutao-outline-font.css",
+			family: "Zen Maru Gothic, MiSans, system-ui, sans-serif",
+			display: "swap" as const,
+		},
 	},
 	fallback: [
 		"system-ui",

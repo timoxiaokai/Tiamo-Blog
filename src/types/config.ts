@@ -460,7 +460,7 @@ export type BackgroundWallpaperConfig = {
 		| string
 		| string[]
 		| {
-				desktop?: string | string[];
+				desktop?: string | string[]| webkitURL;
 				mobile?: string | string[];
 		  }; // 支持单个图片、图片数组或分别设置桌面端和移动端图片
 

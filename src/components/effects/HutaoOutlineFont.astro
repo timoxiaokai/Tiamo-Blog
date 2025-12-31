@@ -1,0 +1,36 @@
+---
+/**
+ * 胡桃轮廓字体组件
+ * Hutao Outline Font Component
+ * 
+ * 使用示例：
+ * <HutaoOutlineFont variant="outline" text="胡桃" />
+ */
+
+export interface Props {
+  variant?: 'outline' | 'gradient' | 'glow' | '3d';
+  text?: string;
+  className?: string;
+}
+
+const { 
+  variant = 'outline', 
+  text = '胡桃',
+  className = ''
+} = Astro.props;
+
+const variantClasses = {
+  outline: 'hutao-outline',
+  gradient: 'hutao-outline-gradient',
+  glow: 'hutao-outline-glow',
+  '3d': 'hutao-outline-3d'
+};
+---
+
+<div class={`hutao-title ${className}`}>
+  <div class={variantClasses[variant]}>{text}</div>
+</div>
+
+<style>
+  @import '/src/styles/hutao-outline-font.css';
+</style>

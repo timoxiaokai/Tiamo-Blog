@@ -6,13 +6,13 @@ import { fontConfig } from "./fontConfig";
 const SITE_LANG = "zh_CN";
 
 export const siteConfig: SiteConfig = {
-	title: "Firefly",
-	subtitle: "Demo site",
-	site_url: "https://firefly.cuteleaf.cn",
+	title: "Genshin Impact Blog",
+	subtitle: "一个分享有趣实事物的博客",
+	site_url: "https://樱花.top",
 	description:
-		"Firefly 是一款基于 Astro 框架和 Fuwari 模板开发的清新美观且现代化个人博客主题模板，专为技术爱好者和内容创作者设计。该主题融合了现代 Web 技术栈，提供了丰富的功能模块和高度可定制的界面，让您能够轻松打造出专业且美观的个人博客网站。",
+		"本网站是一款基于 Astro 框架和 Fuwari 模板开发的清新美观且现代化个人博客主题模板，专为技术爱好者和内容创作者设计。该主题融合了现代 Web 技术栈，提供了丰富的功能模块和高度可定制的界面，让您能够轻松打造出专业且美观的个人博客网站。",
 	keywords: [
-		"Firefly",
+		"Genshin Impact",
 		"Fuwari",
 		"Astro",
 		"ACGN",
@@ -24,7 +24,7 @@ export const siteConfig: SiteConfig = {
 	lang: SITE_LANG,
 
 	themeColor: {
-		hue: 165, // 主题色的默认色相，范围从 0 到 360。例如：红色：0，青色：200，蓝绿色：250，粉色：345
+		hue: 105, // 主题色的默认色相，范围从 0 到 360。例如：红色：0，青色：200，蓝绿色：250，粉色：345
 		fixed: false, // 对访问者隐藏主题色选择器
 		defaultMode: "system", // 默认模式："light" 亮色，"dark" 暗色，"system" 跟随系统
 	},
@@ -32,7 +32,7 @@ export const siteConfig: SiteConfig = {
 	favicon: [
 		// 留空以使用默认 favicon
 		{
-			src: "/assets/images/favicon.ico", // 图标文件路径
+			src: "/assets/images/favicon.png", // 图标文件路径
 			theme: "light", // 可选，指定主题 'light' | 'dark'
 			sizes: "32x32", // 可选，图标大小
 		},
@@ -45,18 +45,18 @@ export const siteConfig: SiteConfig = {
 	// { type: "image", value: "https://example.com/logo.png", alt: "Firefly Logo" }
 	navbarLogo: {
 		type: "image",
-		value: "/assets/images/LiuYingPure3.svg",
+		value: "/assets/images/logo1.png",
 		alt: "🍀",
 	},
-	navbarTitle: "Firefly", // 导航栏标题，可以设置为与 title 不同的值，如果不设置则使用 title
+	navbarTitle: "HuTao", // 导航栏标题，可以设置为与 title 不同的值，如果不设置则使用 title
 	navbarWidthFull: false, // 全宽导航栏，导航栏是否占满屏幕宽度，true：占满，false：不占满
 
 	// 站点开始日期，用于统计运行天数
-	siteStartDate: "2025-01-01", // 请修改为你的站点实际开始日期，格式：YYYY-MM-DD
+	siteStartDate: "2025-12-25", // 请修改为你的站点实际开始日期，格式：YYYY-MM-DD
 
 	// bangumi配置
 	bangumi: {
-		userId: "1163581", // 在此处设置你的Bangumi用户ID
+		userId: "mn0725", // 在此处设置你的Bangumi用户ID
 	},
 
 	// 文章页底部的"上次编辑时间"卡片开关
@@ -94,7 +94,7 @@ export const siteConfig: SiteConfig = {
 	// 分页配置
 	pagination: {
 		// 每页显示的文章数量
-		postsPerPage: 10,
+		postsPerPage: 5,
 	},
 
 	backgroundWallpaper: {
@@ -106,36 +106,37 @@ export const siteConfig: SiteConfig = {
 		// 背景图片配置
 		src: {
 			// 桌面背景图片
-			desktop: "/assets/images/d1.webp",
+			desktop: '/assets/images/p-hutao.jpg',
 			// 移动背景图片
-			mobile: "/assets/images/m3.webp",
+			mobile: "/assets/images/m-HutaoXFucaros.png",
 		},
 
 		// Banner模式特有配置
 		banner: {
 			// 图片位置
-			// 支持所有CSS object-position值，如: 'top', 'center', 'bottom', 'left top', 'right bottom', '25% 75%', '10px 20px'..
-			// 如果不知道怎么配置百分百之类的配置，推荐直接使用：'center'居中，'top'顶部居中，'bottom' 底部居中，'left'左侧居中，'right'右侧居中
-			position: "0% 20%",
+			// 支持所有CSS object-position值，如: 'top', 'center', 'bottom', 'left top', 'right bottom', '25% 75%', '10px 20px'.
+			// 如果不知道怎么配置百分百之类的配置，推荐直接使用：'center' 居中，'top' 顶部居中，'bottom' 底部居中，'left' 左侧居中，'right' 右侧居中
+			position: "left top",
 
 			homeText: {
 				// 主页显示自定义文本（全局开关）
 				enable: true,
 				// 主页横幅主标题
-				title: "Lovely firefly!",
+				title: "HuTao",
 				// 主页横幅副标题
 				subtitle: [
-					"In Reddened Chrysalis, I Once Rest",
-					"From Shattered Sky, I Free Fall",
-					"Amidst Silenced Stars, I Deep Sleep",
-					"Upon Lighted Fyrefly, I Soon Gaze",
-					"From Undreamt Night, I Thence Shine",
-					"In Finalized Morrow, I Full Bloom",
+					"往生堂堂主胡桃",
+					"热情如火的殡葬业经营者",
+					"阴阳有序，命运无常",
+					"这位俏皮可爱的少女掌管着璃月的生死事务",
+					"却总能以最活泼的方式面对生命的终点",
+					"她的火元素神之眼与独特的性格一样炽热",
+					"在战斗中挥舞着护摩之杖，将敌人送往另一个世界。",
 				],
 				typewriter: {
 					//打字机开启 → 循环显示所有副标题
 					//打字机关闭 → 每次刷新随机显示一条副标题
-					enable: false, // 启用副标题打字机效果
+					enable: true, // 启用副标题打字机效果
 					speed: 100, // 打字速度（毫秒）
 					deleteSpeed: 50, // 删除速度（毫秒）
 					pauseTime: 2000, // 完全显示后的暂停时间（毫秒）
@@ -147,12 +148,12 @@ export const siteConfig: SiteConfig = {
 					mobile: true, // 移动端显示横幅图片来源文本
 				},
 				text: {
-					desktop: "Pixiv - 晚晚喵", // 桌面端要显示的来源文本
-					mobile: "Pixiv - KiraraShss", // 移动端要显示的来源文本
+					desktop: "Pixiv - 浑不知（wlzs）", // 桌面端要显示的来源文本
+					mobile: "Pixiv - バーバラ", // 移动端要显示的来源文本
 				},
 				url: {
-					desktop: "https://www.pixiv.net/artworks/135490046", // 桌面端原始艺术品或艺术家页面的 URL 链接
-					mobile: "https://www.pixiv.net/users/42715864", // 移动端原始艺术品或艺术家页面的 URL 链接
+					desktop: "https://www.pixiv.net/artworks/138603786", // 桌面端原始艺术品或艺术家页面的 URL 链接
+					mobile: "https://pixiv.net/artworks/139165411", // 移动端原始艺术品或艺术家页面的 URL 链接
 				},
 			},
 			navbar: {
