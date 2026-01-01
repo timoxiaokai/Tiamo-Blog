@@ -2,9 +2,9 @@
 title: 文章写作指南
 published: 2025-12-25
 pinned: true
-description: "如何使用 Firefly 博客模板。"
+description: "如何使用博客模板。"
 image: "https://zycs-img-j8y.pages.dev/v2/aBCi8GV.jpeg"
-tags: ["Firefly", "博客", "Markdown", "使用指南"]
+tags: ["博客", "Markdown", "使用指南"]
 category: 博客指南
 draft: false
 ---

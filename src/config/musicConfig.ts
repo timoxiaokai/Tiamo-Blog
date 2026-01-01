@@ -21,7 +21,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 		type: "playlist",
 
 		// 歌单/专辑/单曲 ID 或搜索关键词
-		id: "10046455237", // 网易云音乐歌单ID示例
+		id: "13888290899", // 网易云音乐歌单ID示例
 
 		// 认证 token（可选）
 		auth: "",
@@ -64,7 +64,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 		loop: "all",
 
 		// 播放顺序：'list'=列表顺序, 'random'=随机播放
-		order: "list",
+		order: "random",
 
 		// 预加载：'none'=不预加载, 'metadata'=预加载元数据, 'auto'=自动
 		preload: "auto",
