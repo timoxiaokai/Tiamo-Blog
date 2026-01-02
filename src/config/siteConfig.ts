@@ -6,7 +6,7 @@ import { fontConfig } from "./fontConfig";
 const SITE_LANG = "zh_CN";
 
 export const siteConfig: SiteConfig = {
-	title: "Genshin Impact Blog",
+	title: "胡桃のBlog",
 	subtitle: "一个分享有趣实事物的博客",
 	site_url: "https://樱花.top",
 	description:
@@ -16,9 +16,11 @@ export const siteConfig: SiteConfig = {
 		"Fuwari",
 		"Astro",
 		"ACGN",
-		"博客",
+		"个人博客",
 		"技术博客",
 		"静态博客",
+		"软件分享",
+		"日常分享"
 	],
 
 	lang: SITE_LANG,
@@ -82,7 +84,7 @@ export const siteConfig: SiteConfig = {
 		// 如果sidebarConfig.ts中侧边栏配置启用了"both"双侧边栏，则无法使用文章列表"grid"网格（双列）布局
 		defaultMode: "list",
 		// 是否允许用户切换布局
-		allowSwitch: true,
+		allowSwitch: false,
 
 		// 网格布局配置，仅在 defaultMode 为 "grid" 或允许切换布局时生效
 		grid: {
@@ -101,7 +103,7 @@ export const siteConfig: SiteConfig = {
 		// 壁纸模式："banner" 横幅壁纸，"overlay" 全屏透明，"none" 纯色背景无壁纸
 		mode: "banner",
 		// 是否允许用户通过导航栏切换壁纸模式，设为false可提升性能（只渲染当前模式）
-		switchable: true,
+		switchable: false,
 
 		// 背景图片配置
 		src: {
